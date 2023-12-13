@@ -1,0 +1,35 @@
+.recipe_Details
+{
+    border: 1px solid black;
+}
+
+.recipe_Details h2
+{
+    text-transform: uppercase;
+    margin: 0.5em;
+}
+
+
+table tr
+{
+    
+    width: 100%;
+background-color: rgb(223, 142, 43);
+}
+
+table tr th
+{
+    width: 10%;
+    text-align: center;
+    color: black;
+    background-color: darkorange;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+table tr td
+{
+    text-align: center;
+    padding: 5px;
+    color: black;
+}

@@ -1,0 +1,103 @@
+.newRecipeForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: fit-content;
+    gap: 15px;
+    margin-top: 30px;   
+}
+
+section
+{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+    border: 1px solid #989898;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.radio_container
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+.inputContainer
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;    
+}
+
+.radio_container span
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;    
+}
+
+form input[type=radio] {
+    height: 35px;
+    width: 35px;
+    border: 3px;
+  }
+
+  form input[type="text"]:focus {
+    --color: dimgrey;
+    border: 1px solid var(--color);
+    box-shadow: 0 0 15px dimgrey;
+
+  }
+
+  .ingredientContainer
+  {
+    display: flex;
+    
+    gap: 30px;
+    width: 50%;  
+  }
+
+  .IngredientInputs
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    border: 1px solid red;
+  }
+
+  .IngredientList
+  {
+    border: 1px solid red;
+  }
+
+  .AddIngredientBtn,
+  input[type="submit"]
+  {
+    background-color: orange;
+    border: none;
+    outline: noen;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .AddIngredientBtn:hover,
+  input[type="submit"]:hover
+  {
+    background-color: orangered;
+  }
+

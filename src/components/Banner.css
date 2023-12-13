@@ -1,0 +1,58 @@
+.banner
+{
+width: 100%;
+height: 450px;    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+color: #fff;
+background: linear-gradient(
+    190deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)),
+    url(salmon.jpg);
+
+background-size: cover;
+}
+
+.banner-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    width: 880px;
+    display: flex;
+
+}
+
+.banner-text h3
+{
+    font-size: 24px;
+}
+
+.banner-text h1
+{
+color: rgb(223, 142, 43);
+font-size: 64px;
+
+}
+
+.banner .BannerBtn
+{
+background-color: rgb(63, 99, 100);
+color: whitesmoke;
+font-size: large;
+padding: 0.5em;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+.banner .BannerBtn:hover
+{
+    background-color: rgb(9, 101, 101);
+}

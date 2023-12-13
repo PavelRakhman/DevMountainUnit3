@@ -1,0 +1,60 @@
+.recipe-container
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+}
+
+.search_bar_container
+{
+    min-width: 250px;
+    width: 30vw;
+    border-radius: 50px;
+    border: none;
+    background-color: #da773551;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;    
+}
+
+h2 {
+    color: black;
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+
+.searchInput
+{
+
+    width: 100%;
+    border-radius: 0 30px 30px 0;
+    font-size: 20px;    
+width: 100%;
+box-sizing: border-box;
+margin: 0;
+padding:0.5em;
+border: none;
+background-color: transparent;    
+}
+
+.searchInput:focus
+{
+    outline: none;
+}
+
+
+.recipe-grid
+{
+display: flex;
+gap: 50px;
+justify-content: center;
+flex-wrap: wrap;    
+margin-top: 50px;
+}
+
